@@ -51,7 +51,7 @@ h1 {
   bottom: -30px;
 }
 .wookie {
-  background: url(wookie.png) bottom center no-repeat;
+  background: url(wookie.svg) bottom center no-repeat;
   background-size: 50%;
   position: absolute;
   top: 100%;
