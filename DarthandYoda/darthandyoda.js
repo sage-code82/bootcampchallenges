@@ -15,10 +15,11 @@ startGame();
 function place(box) {
   if (box.innerText != "" || won) return;
   box.innerText = currentPlayer;
-  currentPlayer == "O" ? (currentPlayer = "X") : (currentPlayer = "O");
-  checkBoard();
+  currentPlayer = currentPlayer === "O" ? "X" : "O";
+  checkGameBoard();
 }
-function checkBoard() {
+
+function checkGameBoard() {
   for (let i = 0; i <= 2; i++) {
     checkWinner(
       document.getElementById(i + "_0").innerText,
