@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  background-color: purple;
+  line-height: 1.3;
+  font-family: Menlo, monospace;
+  color: white;
+}
+
+.r2d2-container {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  animation: moveR2D2 5s linear forwards;
+}
+
+.r2d2 {
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes moveR2D2 {
+  to {
+    left: calc(100% + 100px);
+  }
+}

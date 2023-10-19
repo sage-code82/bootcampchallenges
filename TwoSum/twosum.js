@@ -22,7 +22,7 @@ function stretchValue(arr, target) {
 }
 
 twoSumButton.addEventListener("click", () => {
-  const targetInput = prompt("Pick a number!");
+  const targetInput = prompt("Pick a number between 1 and 50!");
   const targetInputNum = +targetInput;
   console.log(typeof targetInputNum);
   stretchValue(arrNum, targetInputNum);

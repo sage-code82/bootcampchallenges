@@ -31,8 +31,6 @@ li:hover ~ li p {
   animation: wave-animation 0.3s infinite;
 }
 
-/* below is just for demo styling */
-
 div {
   display: flex;
   height: 100vh;
